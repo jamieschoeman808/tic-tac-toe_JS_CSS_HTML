@@ -1,0 +1,9 @@
+#rules{
+    color:green
+}
+
+#top-left, #top-middle, #top-right, #middle-left, #centre, #middle-right, #bottom-left, #bottom-middle, #bottom-right {
+    width: 100px;
+    height: 100px;
+}
+

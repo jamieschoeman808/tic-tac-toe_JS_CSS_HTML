@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="intro">
+            <h1>How to play</h1>
+            <p id="rules">The objective of the game is to get either 3 O's or 3 X's in a row. Goodluck!</p>
+            <div id="selection">
+                <input type="radio" id="X" name="selection" onclick="getSymbols()">
+                <label for="X">X</label><br>
+                <input type="radio" id="O" name="selection" onclick="getSymbols()">
+                <label for="O">O</label>
+            </div>
+        </div>
+        <div id="main">
+            <button id="top-left" ></button>
+            <button id="top-middle"></button>
+            <button id="top-right"></button>
+            <br>
+            <button id="middle-left"></button>
+            <button id="centre"></button>
+            <button id="middle-right"></button>
+            <br>
+            <button id="bottom-left"></button>
+            <button id="bottom-middle"></button>
+            <button id="bottom-right"></button>
+        </div>
+        <div>
+            <button id="compTurn" onclick="ComputerTurn()">Computer's turn</button>
+        </div>
+        <script src="tic_tac_toe.js"></script>
+    </body>
+</html>
